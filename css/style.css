@@ -81,11 +81,10 @@ tr:nth-child(odd) {
 tr:hover {
   background-color: rgb(126,8,48, 0.25);
 }
-*{
 
+*:focus{
+  border: 3px dashed #417243;
 }
-
-thead tr:first-child th:first-child{}
 
 footer{
   width:100%;
