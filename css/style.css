@@ -64,6 +64,7 @@ table{
   color: #FFFFFF;
   margin: auto;
   text-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
   min-width: 125px;
   padding: 10px;
@@ -75,18 +76,15 @@ table{
   vertical-align: middle;
 
 }
-td, th {
-  border-left:solid black 2px;
+td, tr {
   border-top:solid black 2px;
-}
-td{
-  padding: 15px;
+  padding: 10px;
 }
 tr:nth-child(even) {
-  background-color: rgba(50,100,1, 0.0);
+  background-color: #D1D1D1;
 }
 tr:nth-child(odd) {
-  background-color: #D1D1D1;
+  background-color: rgba(50,100,1, 0.0);
 }
 tr:hover {
   background-color: rgba(126,8,32, 0.25);
