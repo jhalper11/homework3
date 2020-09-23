@@ -7,6 +7,7 @@ There are some missing selectors.
 
 Make sure to learn what the starter code does!!
 */
+/*@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap')*/
 
 body{
   color: #000000;
@@ -71,11 +72,15 @@ table{
 td{
   padding: 15px;
 }
-
-tr{
-
+tr:nth-child(even) {
+  background-color: #D1D1D1;
 }
-
+tr:nth-child(odd) {
+  background-color: rgb(50,100,1, 0.0);
+}
+tr:hover {
+  background-color: rgb(126,8,48, 0.25);
+}
 *{
 
 }
