@@ -92,25 +92,24 @@ thead tr:first-child, th:first-child {
 thead tr:last-child, th:last-child {
   border-top-right-radius: 10px;
 }
-tr:nth-child(even), th:nth-child(even) {
-  background-color: #D1D1D1;
-}
-tr:nth-child(odd), th:nth-child(odd) {
-  background-color: transparent;
-}
-tr:hover {
-  background-color: rgba(126,8,32, 0.25);
-}
 tbody tr:last-child td:first-child {
   border-bottom-left-radius: 10px;
 }
 tbody tr:last-child td:last-child {
   border-bottom-right-radius: 10px;
 }
+tr:nth-child(even){
+  background-color: #D1D1D1;
+}
+tbody tr:nth-child(odd){
+  background-color: transparent;
+}
+tr:hover {
+  background-color: rgba(126,8,32, 0.25);
+}
 *:focus{
   border: 3px dashed #417243;
 }
-
 footer{
   width:100%;
   min-height: 75px;
