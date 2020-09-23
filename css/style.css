@@ -65,6 +65,7 @@ table{
   color: #FFFFFF;
   margin: auto;
   vertical-align: middle;
+  text-align: center;
   text-transform: uppercase;
   min-width: 125px;
   padding: 10px;
@@ -73,16 +74,17 @@ table{
 .rowhead{
   border-color: #000000;
   border-width: 2px;
+  text-align: center;
   vertical-align: middle;
 
 }
 td, tr {
   border-top:solid black 2px;
   padding: 10px;
+  text-align: center;
 }
 th:first-child {
   border-top-left-radius: 10px;
-  text-align: left;
 }
 th:last-child {
   border-top-right-radius: 10px;
