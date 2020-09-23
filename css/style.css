@@ -112,7 +112,7 @@ tbody tr:nth-child(odd){
   background-color: transparent;
 }
 
-.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+tbody tr:hover td  {
   background-color: rgba(126,8,32, 0.25);
 }
 
