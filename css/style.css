@@ -54,7 +54,6 @@ table{
     border: 2px solid #000000;
     margin: auto;
     border-radius: 10px;
-    border-collapse: separate;
 }
 
 .colhead{
