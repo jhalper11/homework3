@@ -83,10 +83,10 @@ tr:nth-child(even) {
   background-color: #D1D1D1;
 }
 tr:nth-child(odd) {
-  background-color: rgb(50,100,1, 0.0);
+  background-color: rgba(50,100,1, 0.0);
 }
 tr:hover {
-  background-color: rgb(126,8,48, 0.25);
+  background-color: rgba(126,8,32, 0.25);
 }
 
 *:focus{
@@ -99,6 +99,8 @@ footer{
   background-color:#000000;
   text-align:center;
   position: fixed;
+  bottom: 0;
+  left: 0;
   color: #FFFFFF;
 }
 
