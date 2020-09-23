@@ -101,14 +101,14 @@ tbody tr:last-child, td:last-child {
   border-bottom-right-radius: 10px;
 }
 
-tbody tr:nth-child(even){
+tr:nth-child(even){
   background-color: #D1D1D1;
 }
 
-tbody tr:nth-child(odd){
+tr:nth-child(odd){
   background-color: transparent;
 }
-tbody tr:hover {
+tr:hover {
   background-color: rgba(126,8,32, 0.25)
 }
 
