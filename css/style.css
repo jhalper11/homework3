@@ -83,10 +83,10 @@ td{
   padding: 15px;
 }
 tr:nth-child(even) {
-  background-color: #D1D1D1;
+  background-color: rgba(50,100,1, 0.0);
 }
 tr:nth-child(odd) {
-  background-color: rgba(50,100,1, 0.0);
+  background-color: #D1D1D1;
 }
 tr:hover {
   background-color: rgba(126,8,32, 0.25);
