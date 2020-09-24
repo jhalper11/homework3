@@ -81,9 +81,9 @@ td {
   vertical-align: middle;
   border-width: 2px;
 }
-tr {
+/* tr {
   border-top: solid black 2px;
-}
+}*/
 thead tr:first-child, th:first-child {
   border-top-left-radius: 10px;
 }
